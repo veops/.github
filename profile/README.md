@@ -1,21 +1,42 @@
-<h3 align="center">A one-stop operations and maintenance platform focused on efficiency</h3>
+<h1 align="center">VEOPS</h1>
 
--------
+<p align="center">
+  <strong>Open-source tools for IT operations</strong>
+</p>
 
-### 🛠️ Main Projects
+<p align="center">
+  <a href="https://veops.cn/">Website</a> ·
+  <a href="https://veops.cn/docs/">Documentation</a> ·
+  <a href="https://github.com/orgs/veops/repositories">Explore projects</a>
+</p>
 
-| Project                                                   | Status                                                                                                                                                                                                                                                                                      | Description                                                                                |
-|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [CMDB](https://github.com/veops/cmdb)                     | <a href="https://github.com/veops/cmdb/releases"><img alt="CMDB" src="https://img.shields.io/github/release/veops/cmdb.svg" /></a> <a href="https://github.com/veops/cmdb/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-AGPLv3-brightgreen" alt="License: GPLv3"></a> | Configuration and Management of IT resources   
-| [OneTerm](https://github.com/veops/oneterm)               | <a href="https://github.com/veops/oneterm/releases"><img alt="oneterm release" src="https://img.shields.io/github/release/veops/oneterm.svg" /></a> <img src="https://img.shields.io/badge/License-AGPLv3-brightgreen" alt="License: GPLv3"></a>                                             | Provide secure access and control over all infrastructure
-| [OneOps-deploy ](https://github.com/veops/OneOps-deploy ) | <a href="https://github.com/veops/OneOps-deploy/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-AGPLv3-brightgreen" alt="License: GPLv3"></a>                                                                                                                             | OneOps one-click deployment, currently includes CMDB and OneTerm
-| [messenger](https://github.com/veops/messenger)           | <a href="https://github.com/veops/messenger/blob/main/LICENSE"><img src="https://img.shields.io/github/license/veops/messenger" alt="Apache License 2.0"></a>                                                                                                                               | A simple and lightweight message sending service
-| [ops-tools](https://github.com/veops/ops-tools)           | <a href="https://github.com/veops/ops-tools/blob/main/LICENSE"><img src="https://img.shields.io/github/license/veops/ops-tools" alt="Apache License 2.0"></a>                                                                                                                               | Common practices and code for operations and maintenance
-| [ACL](https://github.com/veops/acl)                       | <a href="https://github.com/veops/acl/releases"><img alt="ACL" src="https://img.shields.io/github/release/veops/acl.svg" /></a> <a href="https://github.com/veops/acl/blob/main/LICENSE"><img src="https://img.shields.io/github/license/veops/acl" alt="Apache License 2.0"></a>            | A general permission control management system
-| [go-ansiterm](https://github.com/veops/go-ansiterm)       | <a href="https://github.com/veops/acl/blob/main/LICENSE"><img src="https://img.shields.io/github/license/veops/go-ansiterm" alt="Apache License 2.0"></a>                                                                                                                                           | A Linux terminal emulator similar to pyte
+VEOPS develops open-source software for IT operations teams. Manage infrastructure assets with CMDB and control and audit access with OneTerm.
 
+## Core projects
 
-### 🌐 Official Links
+| Project | Description | Status |
+| --- | --- | --- |
+| [CMDB](https://github.com/veops/cmdb) | Configuration management database for IT assets, with custom models, resource discovery, and relationship views. | [![CMDB stars](https://img.shields.io/github/stars/veops/cmdb?style=flat-square)](https://github.com/veops/cmdb/stargazers) [![CMDB release](https://img.shields.io/github/v/release/veops/cmdb?style=flat-square)](https://github.com/veops/cmdb/releases) [![CMDB license](https://img.shields.io/github/license/veops/cmdb?style=flat-square)](https://github.com/veops/cmdb/blob/master/LICENSE) |
+| [OneTerm](https://github.com/veops/oneterm) | Bastion host for secure infrastructure access, permission management, and session auditing. | [![OneTerm stars](https://img.shields.io/github/stars/veops/oneterm?style=flat-square)](https://github.com/veops/oneterm/stargazers) [![OneTerm release](https://img.shields.io/github/v/release/veops/oneterm?style=flat-square)](https://github.com/veops/oneterm/releases) [![OneTerm license](https://img.shields.io/github/license/veops/oneterm?style=flat-square)](https://github.com/veops/oneterm/blob/main/LICENSE) |
 
-- **Website**: [Visit Our Website](https://veops.cn/#hero)
-- **Documentation**: [Read the Documentation](https://veops.cn/docs/)
+## Tools & libraries
+
+| Project | Description | Status |
+| --- | --- | --- |
+| [OneOps-deploy](https://github.com/veops/OneOps-deploy) | Docker Compose deployment of CMDB and OneTerm, with ACL integrated into CMDB. | [![OneOps-deploy license](https://img.shields.io/github/license/veops/OneOps-deploy?style=flat-square)](https://github.com/veops/OneOps-deploy/blob/main/LICENSE) |
+| [ACL](https://github.com/veops/acl) | Role-based access control with application-level permission isolation and a REST API. | [![ACL release](https://img.shields.io/github/v/release/veops/acl?style=flat-square)](https://github.com/veops/acl/releases) [![ACL license](https://img.shields.io/github/license/veops/acl?style=flat-square)](https://github.com/veops/acl/blob/main/LICENSE) |
+| [messenger](https://github.com/veops/messenger) | Notification service for email, WeChat, Feishu, and DingTalk. | [![messenger license](https://img.shields.io/github/license/veops/messenger?style=flat-square)](https://github.com/veops/messenger/blob/main/LICENSE) |
+| [ops-tools](https://github.com/veops/ops-tools) | Operations utilities for resource discovery, network topology, monitoring integration, and secrets management. | [![ops-tools license](https://img.shields.io/github/license/veops/ops-tools?style=flat-square)](https://github.com/veops/ops-tools/blob/main/LICENSE) |
+| [go-ansiterm](https://github.com/veops/go-ansiterm) | VT-compatible terminal emulator in Go, with command extraction and ANSI escape sequence handling. | [![go-ansiterm license](https://img.shields.io/github/license/veops/go-ansiterm?style=flat-square)](https://github.com/veops/go-ansiterm/blob/main/LICENSE) |
+
+Each project's license badge links to its license file.
+
+## Get started
+
+- Read the [CMDB documentation](https://veops.cn/docs/) for configuration and usage.
+- Deploy CMDB and OneTerm together using the [OneOps-deploy setup guide](https://github.com/veops/OneOps-deploy#readme).
+- Follow each project's README for standalone installation and local development.
+
+## Contributing
+
+Report bugs and request features in the relevant project's issue tracker. Include reproduction steps and environment details when reporting a bug. Submit code and documentation improvements through pull requests in that repository.
